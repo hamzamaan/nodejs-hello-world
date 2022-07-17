@@ -10,7 +10,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo 'deploying the application'
-                sh 'sudo npm run start'
+                sh 'sudo npm test'
             }
         }
     }
