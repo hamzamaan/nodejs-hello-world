@@ -4,14 +4,14 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Building the application'
-                sh 'npm install'
+                sh 'npm version'
             }
         }
-        stage('deploy') {
-            steps {
-                echo 'deploying the application'
-                sh 'npm start'
-                // sh 'nohup npm start&'
+//         stage('deploy') {
+//             steps {
+//                 echo 'deploying the application'
+//                 sh 'npm start'
+//                 // sh 'nohup npm start&'
             }
         }
     }
