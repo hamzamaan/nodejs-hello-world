@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Building the application'
-                sh 'npm version'
+                sh 'pwd'
             }
         }
 //         stage('deploy') {
