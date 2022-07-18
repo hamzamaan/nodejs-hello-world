@@ -12,7 +12,7 @@ pipeline {
 //                 echo 'deploying the application'
 //                 sh 'npm start'
 //                 // sh 'nohup npm start&'
-            }
-        }
+           // }
+      //  }
     }
 }
